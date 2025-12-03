@@ -21,4 +21,98 @@ The project evaluates operational, clinical, and financial performance metrics a
 ## 🗂 Repository Structure
 
 
-# OPD-Doctor-Performance-Analytics
+├── data/
+│ ├── opd_visits.csv
+│ ├── opd_billing.csv
+│ ├── opd_diagnosis.csv
+│ └── opd_prescriptions.csv
+│
+├── sql/
+│ └── assignment_queries.sql
+│
+├── notebooks/
+│ └── OPD_Analytics.ipynb
+│
+├── reports/
+│ └── assignment_explanations.pdf
+│
+└── README.md
+
+
+---
+
+## 🚀 Features
+
+### **1. OPD Dataset Generation**
+- 80,000+ synthetic OPD visits  
+- Randomized branches, doctors, diagnoses, prescriptions, billing  
+- Python scripts for reproducible data generation  
+
+### **2. SQL Analytics Tasks**
+Includes all 8 assignment tasks:
+- Monthly doctor workload  
+- New vs Follow-up analysis  
+- Top diagnoses per specialization  
+- Most prescribed medicines  
+- Monthly revenue per branch  
+- Average ticket size by payment mode  
+- Doctor performance report  
+- Peak hour analysis per branch  
+
+All SQL queries are available in:  
+📁 `sql/assignment_queries.sql`
+
+---
+
+## 📊 Visualizations
+
+The notebook includes clear and meaningful visualizations for:
+- Doctor performance  
+- Specialization analysis  
+- Prescription trends  
+- Revenue trends  
+- Peak hour traffic  
+
+Charts are generated using **Matplotlib** and **Seaborn**.
+
+---
+
+## 📝 Files Included
+
+- **SQL Scripts:** Full assignment solution  
+- **Python Notebook:** Dataset creation + all analytics  
+- **PDF Report:** Query explanations in structured format  
+- **CSV Files:** Final OPD dataset  
+
+---
+
+## 🛠 Technologies Used
+
+- **Python** (Pandas, NumPy, Faker, Seaborn, SQLite3)  
+- **SQL** (SQLite)  
+- **Matplotlib / Seaborn**  
+- **Jupyter Notebook**  
+
+---
+
+## 📈 Key Learnings
+
+- Window functions for ranking and partitioning  
+- Time-series grouping using `strftime()`  
+- Clinical & operational KPI extraction  
+- Data pipeline automation: generation → cleaning → analytics  
+- Visualization techniques for healthcare datasets  
+
+---
+
+## 📬 Contact
+
+If you have any questions, feel free to reach out.
+
+**Ujjwal Patil**  
+Python & ML Developer  
+(ujjwalpatil2811@gmail.com)
+
+---
+
+
