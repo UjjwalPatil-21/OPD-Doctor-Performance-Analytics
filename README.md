@@ -16,28 +16,6 @@ This repository contains:
 
 The project evaluates operational, clinical, and financial performance metrics across branches, doctors, diagnoses, medicines, and patient visit behavior.
 
----
-
-## 🗂 Repository Structure
-
-
-├── data/
-│ ├── opd_visits.csv
-│ ├── opd_billing.csv
-│ ├── opd_diagnosis.csv
-│ └── opd_prescriptions.csv
-│
-├── sql/
-│ └── assignment_queries.sql
-│
-├── notebooks/
-│ └── OPD_Analytics.ipynb
-│
-├── reports/
-│ └── assignment_explanations.pdf
-│
-└── README.md
-
 
 ---
 
